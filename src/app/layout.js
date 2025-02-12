@@ -1,17 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import {Inter} from "next/font/google";
 import "./globals.css";
 import Header from "./Component/Header";
 import Footer from "./Component/Footer";
 
-const geistSans = Geist({
+const inter = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  weight:["100",'300','600','400']
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 
 export const metadata = {
   title: "Chief Olaleye",
@@ -21,9 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <body
+      className={`${inter.variable} antialiased`}
+    >
          {/* <Header /> */}
          <main>
         {children}

@@ -33,17 +33,32 @@ const Header = () => {
 
   return (
     <div className=' font-semibold text-[24px]'>
-        <div className={` hidden md:flex flex   w-full  fer   text-white   item-center   gap-12 py-2 ${scroll ? 'bg-black' : 'bg-black'} `} >
-            <Link href={"/"}  className={path ==="/"?"active":""}>
+
+        <div className={` hidden md:flex flex-row justify-around  w-full  fer   text-white   item-center    py-2 ${scroll ? 'bg-black' : 'bg-black'} `} >
+
+          <div className=''>
+            <Link href={''}>
+            <h1 className='uppercase'>
+            Chief
+            Olaleye
+            </h1>
+            </Link>
+          </div>
+
+
+
+          <div className='flex flex-row gap-[90px] '>
+            <Link href={"/#hero"}  className={path ==="/#hero"?"active":""}>
            <div className=''>HOME</div>
             </Link>
-            <Link href={"/#about"}  id={path ==="/#about"?"active":""} >
+            <Link href={"/#explore"}  id={path ==="/#explore"?"active":""} >
            <div>ABOUT</div>
             </Link>
             <Link href={"/#contact"} className={/#contact/.test(path)
                      ?"active":""}>
            <div>CONTACT</div>
             </Link>
+          </div>
         </div>
 
 
@@ -53,6 +68,10 @@ const Header = () => {
 <div className='md:hidden    fer  '>
     <nav  className='flex flex-row justify-between items-center  mx-4 my-4 '>
     <div className='ml-4'>
+    <h1 className='uppercase'>
+            Chief
+            Olaleye
+            </h1>
       {/* <Image src={"/Vector .png"}   width={25} height={19}/> */}
     </div>
 
