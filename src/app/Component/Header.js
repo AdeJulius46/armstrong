@@ -54,7 +54,7 @@ const Header = () => {
             <Link href={"/#explore"}  id={path ==="/#explore"?"active":""} >
            <div>ABOUT</div>
             </Link>
-            <Link href={"/#contact"} className={/#contact/.test(path)
+            <Link href={"/#book"} className={/#contact/.test(path)
                      ?"active":""}>
            <div>CONTACT</div>
             </Link>
@@ -79,25 +79,37 @@ const Header = () => {
     <Image src={"/Close.png"}   width={25} height={19}/>
          </button>
       {   toggle &&(
-              <div  className='flex flex-col w-full   gap-8 text-black py-1 top-[13px] bg-white text-black font-bold absolute top-[1px]   right-[1px] '>
+              <div  className='flex flex-col w-full  h-screen gap-8 text-black py-1 top-[13px] bg-white text-black font-bold absolute top-[1px]   right-[1px] '>
+                      <div className='flex flex-row justify-between px-4 py-4 '>
+                      <Link href={''}>
+            <h1 className='uppercase'>
+            Chief
+            Olaleye
+            </h1>
+            </Link>
                     <button className='self-end mx-3  mt-2  text-white' onClick={togglebtn}>  
                     <Image src={"/Close.png"}   width={25} height={19} alt='lksl'/>
                      </button>
+
+                      </div>
                      {/* <div className=''> */}
-              <div className='mx-2'>
-              <Link href={"/"}>
-           <div className=''>Home</div>
+              <div className='flex flex-col items-center gap-[50px] text-[2rem] mt-[80px]'>
+              <div className='mx-2 '>
+              <Link href={"/#hero"}  className={path ==="/#hero"?"active":""}>
+           <div className=''>HOME</div>
             </Link>
               </div>
               <div className='mx-2'>
-              <Link href={"/#about"}>
-           <div>About</div>
+              <Link href={"/#explore"}  id={path ==="/#explore"?"active":""} >
+           <div>ABOUT</div>
             </Link>
               </div>
               <div className='mx-2'>
-              <Link href={"/#contact"}>
-           <div>Contact</div>
+              <Link href={"/#book"} className={/#contact/.test(path)
+                     ?"active":""}>
+           <div>CONTACT</div>
             </Link>
+                     </div>
               </div>
             </div>
 

@@ -6,7 +6,7 @@ const Book = () => {
   return (
    
 
-      <div>
+      <div id='book'>
         <div className='flex flex-col  items-center  mt-[80px] gap-[60px]'>
             <h1 className='text-[2.0rem]  text-wrap px-[20px] items-center  md:hidden'>
             Books & Publications <br/>by Chief Olaleye
