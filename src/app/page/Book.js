@@ -8,26 +8,26 @@ const Book = () => {
 
       <div>
         <div className='flex flex-col  items-center  mt-[80px] gap-[60px]'>
-            <h1 className='font-[600] text-[40px]'>
+            <h1 className='text-[1.5rem]  text-wrap px-[20px] items-center  md:font-[600] text-[3rem]'>
             Books & Publications by Chief Olaleye
             </h1>
             <p className='font-style: italic '>
             Sharing Knowledge Through Words
             </p>
         </div>
-        <div className='flex  flex-row  items-center  gap-[40px]  max-w-5xl  mx-auto  mt-[50px]' id='about' >
+        <div className='flex  flex-col  md:flex-row  items-center  gap-[40px]  max-w-5xl  mx-auto  mt-[50px]' id='about' >
                 <div className='px-4  flex flex-col gap-4  '>
                     <Image  src={"/Book.png"}   width={210} height={100}/>
                     <p>
                     Chief Olaleye Amstrong
                     </p>
                 </div>
-            <div className=' w-[900px] '>
-                <div className='text-black flex-col   '  >
+            <div className=' max-w-5xl md:w-[900px]'>
+                <div className='  flex items-start   md:text-black flex flex-col items-center   '  >
                     <p className='font-[400] text-[30px] text-black'>
                     Business Unlocked
                     </p>
-                    <p className='text-black py-4'  >
+                    <p className='  px-8 text-wrap text-black py-4'  >
                         <span>
                     Doing business is an art that needs to be learned. No one can gain access to a house without the entrance key, and the ladder is easier to climb from the bottom up. We must learn and practise to become masters.
                         </span>

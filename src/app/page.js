@@ -8,7 +8,7 @@ export default function Home() {
     <div className=" pt-[45px] ">
       {/* <Hero /> */}
       <Explore/>
-      {/* <Book /> */}
+      <Book />
          </div>
   );
 }
