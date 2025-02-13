@@ -8,7 +8,10 @@ const Book = () => {
 
       <div>
         <div className='flex flex-col  items-center  mt-[80px] gap-[60px]'>
-            <h1 className='text-[1.5rem]  text-wrap px-[20px] items-center  md:font-[600] text-[3rem]'>
+            <h1 className='text-[2.0rem]  text-wrap px-[20px] items-center  md:hidden'>
+            Books & Publications <br/>by Chief Olaleye
+            </h1>
+            <h1 className='hidden  md:block font-[600] text-[3rem]'>
             Books & Publications by Chief Olaleye
             </h1>
             <p className='font-style: italic '>
@@ -37,7 +40,7 @@ The content of this book is practical and is meant to be practised. It is a manu
                     </span>
 
             </p>
-            <Link href={''}>
+            <Link href={''} className='max-w-5xl'>
             <button  className='bg-black text-white py-2 px-4 mt-[20px]  uppercase'>
             Get The Book                    </button>
             </Link>

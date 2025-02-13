@@ -6,7 +6,7 @@ import Book from "./page/Book";
 export default function Home() {
   return (
     <div className=" pt-[45px] ">
-      {/* <Hero /> */}
+      <Hero />
       <Explore/>
       <Book />
          </div>

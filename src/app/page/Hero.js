@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className=' hidden md:h-screen  hero ' id='hero'>
+    <div className=' hidden md:block  hero ' id='hero'>
       <div className='flex     flex-row flex  justify-between max-w-6xl  mx-auto pt-12    '>
       <div className='h-[60vh] w-[400px] ml-[40px] mt-[20px]'>
         <Image  src={"/armstrong.png"}   width={350} height={100} objectFit={'contain'}/>
