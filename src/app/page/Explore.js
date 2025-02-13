@@ -4,14 +4,14 @@ const Explore = () => {
   return (
     <div className='explore'>
    
-   <div className='flex flex-col   md:flex-row flex border border-black  gap-[80px]  mx-auto  max-w-6xl mt-[20px]  items-center py-4 px-2    mt-[90px]' >
+   <div className='flex flex-col   md:flex-row flex border  border-black   gap-[60px] px-4  mx-auto  max-w-5xl mt-[20px]  items-center py-4   mt-[90px]' >
             <div className=''>
                 <Image  src={"/arm.svg"}  className=''  width={400} height={400} objectFit='contain'/>
                 {/* <Image  src={"/arm.svg"}  className='md:hidden'  width={100} height={100} objectFit='contain'/> */}
             </div>
-        <div className=' w-[300px]  md:flex flex-col gap-8 w-[500px]  '>
-            <div className='mt-8  flex flex-col  md:text-black flex-col  justify-between  items-center '  >
-                <div className=' md:flex flex-col wrap gap-4 mt-[60px]'>
+        <div className='max-w-5xl flex flex-col gap-2  '>
+            <div className='mt-2 flex flex-col  md:text-black flex-col  justify-between   '  >
+                <div className=' mt-[-10px] md:flex flex-col gap-4 mt-[60px]'>
 
                 <p className='font-[300] text-wrap text-black text-[19px]'>
                 Meet Chief Olaleye Olanipekun Amstrong
@@ -25,10 +25,10 @@ const Explore = () => {
                 Business Leader | Public Speaker | Author
                 </p>
                 </div>
-                    <div className='mt-[40px]'>
+                    <div className='mt-[40px] flex flex-col '>
                         <h1 className='font-[600] text-[30px] text-wrap '>  BIOGRAPHY</h1>
-                        <ul className=' text-pretty px-2 text-[13px]  md:list-disc  list-inside mt-[10px] font-[400] text-[15px]' >
-                        <li className='text-pretty'>Experience: 30+ years in business (Oil & Gas, Real Estate, Farming, Media, Fashion)
+                        <ul className='  text-[13px]  md:list-disc  list-inside mt-[10px] font-[400] text-[15px]' >
+                        <li className=''>Experience: 30+ years in business (Oil & Gas, Real Estate, Farming, Media, Fashion)
                         </li>
                         <li> Education: MBA (Marketing) from LAUTECH
                         </li>
