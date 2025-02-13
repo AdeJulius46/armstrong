@@ -94,17 +94,17 @@ const Header = () => {
                       </div>
                      {/* <div className=''> */}
               <div className='flex flex-col items-center gap-[50px] text-[2rem] mt-[80px]'>
-              <div className='mx-2 '>
+              <div className='mx-2 ' onClick={togglebtn}>
               <Link href={"/#hero"}  className={path ==="/#hero"?"active":""}>
            <div className=''>HOME</div>
             </Link>
               </div>
-              <div className='mx-2'>
+              <div className='mx-2' onClick={togglebtn}>
               <Link href={"/#explore"}  id={path ==="/#explore"?"active":""} >
            <div>ABOUT</div>
             </Link>
               </div>
-              <div className='mx-2'>
+              <div className='mx-2' onClick={togglebtn}>
               <Link href={"/#book"} className={/#contact/.test(path)
                      ?"active":""}>
            <div>CONTACT</div>
