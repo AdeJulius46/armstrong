@@ -24,6 +24,18 @@
   );
 }
 
+
+.hero1{
+  background: linear-gradient(
+    to right,
+    #AE9819E5 0%,
+    #AE9819E5 15%,
+    #FFFFFF 15%,
+    #FFFFFF 100%
+
+
+  );
+}
 .haha{
   background-image: "/Skye.png";
 }
