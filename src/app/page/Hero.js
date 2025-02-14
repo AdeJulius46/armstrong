@@ -52,7 +52,7 @@ LEARN MORE
       <div>
         <div className='flex flex-col   md:flex-row flex   gap-[60px] px-4  mx-auto  max-w-5xl mt-[20px]  items-center py-4   mt-[90px]' >
                     <div className=''>
-                        <Image  src={"/arme.png"}  className=''  width={400} height={400} objectFit='contain'/>
+                        <Image  src={"/arme.svg"}  className=''  width={400} height={400} objectFit='contain'/>
                         {/* <Image  src={"/arm.svg"}  className='md:hidden'  width={100} height={100} objectFit='contain'/> */}
                     </div>
                 <div className='max-w-5xl flex flex-col gap-2  '>
