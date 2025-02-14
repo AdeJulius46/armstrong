@@ -4,7 +4,7 @@ const Explore = () => {
   return (
     <div className='explore'>
    
-   <div className='flex flex-col   md:flex-row flex border  border-black   gap-[60px] px-4  mx-auto  max-w-5xl mt-[20px]  items-center py-4   mt-[90px]' >
+   <div className='flex flex-col   border  border-none  md:flex-row flex border  border-black   gap-[60px] px-4  mx-auto  max-w-5xl mt-[20px]  items-center py-4   mt-[90px]' >
             <div className=''>
                 <Image  src={"/arm.svg"}  className=''  width={400} height={400} objectFit='contain'/>
                 {/* <Image  src={"/arm.svg"}  className='md:hidden'  width={100} height={100} objectFit='contain'/> */}
