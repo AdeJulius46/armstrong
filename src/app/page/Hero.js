@@ -77,7 +77,7 @@ LEARN MORE
   <div className=' flex flex-col gap-8  py-12 max-w-5xl justify-center items-center mx-auto px-[80px]'>
       <h1 className='px-3 font-[600] text-[22px] max-w-3xl text-center'>Empowering Businesses, 
       Inspiring Leaders</h1>
-      <p className='text-justify'>A visionary leader, accomplished entrepreneur, and the Agba-Akin of Okin-Apa—building legacies in oil & gas, real estate, media, and beyond.</p>
+      <p className='text-start text-pretty '>A visionary leader, accomplished entrepreneur, and the Agba-Akin of Okin-Apa—building legacies in oil & gas, real estate, media, and beyond.</p>
       <p className='text-start text-pretty  max-w-3xl'> 30+ Years in Business (Oil & Gas, Real Estate, Farming, Media, Fashion)
 MBA in Marketing from LAUTECH
 Public Speaker & Author on Business Growth & Leadership
